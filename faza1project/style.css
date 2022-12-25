@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(230, 230, 230);
+
+}
+.hero{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding-top: 13px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+.two{
+    color: red;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 20px;
+    
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    
+}
+nav ul li a:hover{
+    color: rgb(180, 38, 38);
+    transition: .3s;
+    text-decoration: underline;
+}
+#button{
+    border: none;
+    background: rgb(180, 38, 38);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 0.5px;
+ 
+}
+#button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+.home {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.home img{
+    width: 100%;
+    display: block;
+    height: 600px;
+}
+.home h2{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    
+}
+.home p{
+    position: absolute;
+    top: 165px;
+    left: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.ed{
+    color: red;
+}
+.home #button{
+    position: absolute;
+    top: 305px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutus{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(ss.jpg) no-repeat left;
+    background-size: 55%;
+    background-color:rgb(230, 230, 230);
+    overflow: hidden;
+    padding: 15px 0;
+}
+.inner{
+    width: 45%;
+    background-color:white;
+    padding: 100px;
+    margin-left: 500px;
+
+}
+.inner h1{
+    margin-bottom:30px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.texti{
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.aftesit{
+    display: flex;
+    justify-content:space-between;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    
+    
+}
+.i{
+    position: relative;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #999999;
+    
+}
+.trainers{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+    
+}
+.trainers :first-child{
+    margin-top: 30px;
+}
+.trainers :nth-child(3){
+    margin-top: 30px;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 100px;
+    margin: 10px;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: white 3px solid;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-top: 40px;
+       
+}
+
+#e{
+    background: url(u.webp) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+#d{
+    background: url(zh.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#m{
+    background: url(y.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}   
+#o{
+    background: url(z.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.box:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: 0.5s;
+}
+fieldset{
+    margin-left: 10px;
+    margin-right: 10px;
+    color:red;
+}
+
+legend{
+    text-align: center;
+    
+}
+.pricing{
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    text-align:center;
+    flex-wrap: wrap;
+    margin-top: 145px;
+    margin-bottom: 100px;
+}
+.colona{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tabela{
+    background-color: #fff;
+    padding: 40px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+    width: 300px;
+
+}
+ .tabela1{
+    text-transform: uppercase;
+
+}
+
+.tabela ul li{
+    padding: 10px 0;
+    list-style: none;
+}
+.price{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.spani{
+    display: block;
+    font-size: 14px;
+}
+.tabela a{
+    text-decoration: none;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+    display: block;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.5 linear;
+
+}
+.tabela a:hover{
+    background: #2c3e50;
+    color: #fff;
+
+}
+
+.formBOX{
+    width: 350px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: white;
+    padding: 5px;
+    
+}
+.buttonBOX{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+}
+
+.butoni{
+    padding: 10px 30px;
+    cursor:pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position:relative;
+
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,white,gray);
+    border-radius: 30px;
+    transition: .5s;
+
+}
+.input{
+    top:180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+
+}
+.inputfield{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999 ;
+    outline: none;
+    background: transparent;
+    justify-content: center;
+    
+}
+.submitbutton{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,white,gray);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.bb{
+    margin: 30px 10px 30px 0;
+}
+.b{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+
+}
+#login{
+    left: 10px;
+}
+#register{
+    left: 450px;
+}
+footer{
+    padding: 20px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}

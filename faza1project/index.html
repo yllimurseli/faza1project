@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM-Justtwomore</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+     <!--NAVBAR-->
+    <header class="hero">
+        <nav>
+            <h2 class="logo">Just<span class="two">two</span>more</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutus">About</a></li>
+                <li><a href="#all">Trainers</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+            <button type="button" id="button">Login</button>
+            
+        </nav>
+    <!--HOME-->
+    </header>
+    <div class="home">
+        <img src="b.jpg">
+        <h2>Do something today that your<br> future self will thank you for.</h2>
+        <p>BE STRONG <span class="ed">BE FIT</span></p>
+        <button id="button">Read More</button>
+    </div>
+    <!--ABOUTUS-->
+    <div class="aboutus">
+        <div class="inner">
+            <h1>About us</h1>
+            <p class="texti">
+                We belive that the combination of physical, social, and emotional fitness has transformative power.We build strong human beings on the inside and out, and we embrace fitness as part of who we are. We work together on a collaborative, encouraging and respectful manner. 
+            </p>
+            <div class="aftesit">
+                <span class="ee">Trainers</span>
+                <span class="ee">Exellent Equipment</span>
+                <span class="ee">Meal Planprogram</span>
+            </div>
+
+        </div>
+    <!--TRAINERS-->
+    </div>
+    <div class="all">
+        <fieldset>
+        <legend><h2 class="i">Trainers</h2></legend>
+            <div class="trainers">
+                <div class="box" id="e">
+                    Michael
+                </div>
+                <div class="box" id="d">
+                    Andy
+                </div>
+                <div class="box" id="m">
+                    Oliver
+                </div>
+                <div class="box" id="o">
+                    Anna 
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <!--PRICING-->
+    <div class="pricing">
+        <div class="colona">
+
+            <div class="tabela">
+                <h2 class="tabela1">Regular</h2>
+                <div class="price">
+                    15$
+                    <span class="spani">/Month</span>
+                </div>
+                <ul>
+                    <li>Personal Training &#10004;</li>
+                    <li>Weight Lifting &#10004;</li>
+                    <li>Diet Plans &#10005;</li>
+                    <li>Cardio Exersise &#10005;</li>
+                </ul>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="tabela">
+                <h2 class="tabela1">Pro Pack</h2>
+                <div class="price">
+                    25$
+                    <span class="spani">/Month</span>
+                </div>
+                <ul>
+                    <li>Personal Training &#10004;</li>
+                    <li>Weight Lifting &#10004;</li>
+                    <li>Diet Plans &#10004;</li>
+                    <li>Carido Exersise &#10005;</li>
+                </ul>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="tabela">
+                <h2 class="tabela1">Premium</h2>
+                <div class="price">
+                    40$
+                    <span class="spani">/Month</span>
+                </div>
+                <ul>
+                    <li>Personal Training 	&#10004;</li>
+                    <li>Weight Lifting 	&#10004;</li>
+                    <li>Diet Plans 	&#10004;</li>
+                    <li>Cardio Exercise 	&#10004;</li>
+                </ul>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+    <!--LOGIN-->
+    </div>
+    <div class="formBOX">
+        <div id="login" class="buttonBOX">
+            <div id="btn"></div>
+            <button type="button" class="butoni"onclick="login()">Login </button>
+            <button type="button" class="butoni"onclick="register()">Register</button>
+
+        </div>
+        <form id="register" class="input">
+            <input type="text" class="inputfield" placeholder="Username" required>
+            <input type="password" class="inputfield" placeholder="Enter Password" required>
+            <input type="checkbox" class="bb"><span class="b">Remember Password</span>
+            <button type="submit" class="submitbutton">Login</button>
+        </form>
+        <form class="input">
+            <input type="text" class="inputfield" placeholder="Username" required>
+            <input type="email" class="inputfield" placeholder="Email " required>
+            <input type="password" class="inputfield" placeholder="Enter Password" required>
+            <input type="checkbox" class="bb"><span class="b">I agree to the terms & conditions</span>
+            <button type="submit" class="submitbutton" >Register</button>
+        </form>
+
+    </div>
+    <!--UNFINISHED-->
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function login(){
+            x.style.left ="-400px";
+            y.style.left ="50px";
+            z.style.left ="110px";
+        }
+        function register(){
+            x.style.left ="50px"
+            y.style.left ="450px"
+            z.style.left ="0"
+        }
+    
+    </script>
+    <footer>
+        GYM-Justtwomore - &copy; Copyright 2022   
+    </footer>
+    
+</body>
+</html>
